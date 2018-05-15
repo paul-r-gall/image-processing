@@ -1,4 +1,9 @@
-import tensorflow as tf
+"""
+Imports image in any form, converts to BW, deletes 75% of data on Fourier side
+then applies TV minimization with L1 regularization to sharpen image. 
+"""
+
+ tensorflow as tf
 import numpy as np
 import imageio as iio
 
